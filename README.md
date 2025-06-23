@@ -48,7 +48,7 @@ This step generates the "bag of patches" from the raw data.
 **Instructions:**
 1.  Open and run the `shape_patch_kl.ipynb` notebook.
 2.  Make sure to set the paths to your DICOMs, landmark files, and KL grade file within the notebook.
-3.  This notebook will generate and save two crucial files:
+3.  This notebook will generate and save two files:
     *   `id_shapeLR_V00.npz`: Contains patient IDs, landmark coordinates, and KL grades.
     *   `./data/knee_patches_patient_grouped_16_100.h5`: The main dataset file containing the processed patches, ready for training.
 
