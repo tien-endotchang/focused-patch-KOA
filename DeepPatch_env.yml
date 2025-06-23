@@ -1,0 +1,31 @@
+name: knee_mil
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge  # Added for wider package availability
+  - defaults
+dependencies:
+  # Core requirements with specific versions
+  - python=3.11
+  - pytorch
+  - torchvision
+  - pytorch-cuda=11.8
+
+  # General libraries - let conda find the best versions
+  - pip
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - opencv
+  - h5py        # Version constraint removed to fix the error
+  - pydicom
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
+  - tqdm
+  
+  # Pip-managed packages
+  - pip:
+      - absl-py==2.2.2
+      - grad-cam==1.5.5
+      - ttach==0.0.3
