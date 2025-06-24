@@ -1,4 +1,4 @@
-name: knee_mil
+name: DeepPatch
 channels:
   - pytorch
   - nvidia
