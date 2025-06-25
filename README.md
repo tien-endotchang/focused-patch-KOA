@@ -1,6 +1,3 @@
-# DeepPatch
-
-
 # Anatomically-Focused Patches for Lightweight and Explainable Knee OA Grading
 
 This repository contains the official PyTorch implementation for the paper: **[Anatomically-Focused Patches for Lightweight and Explainable Knee OA Grading]**.
@@ -16,18 +13,18 @@ To set up the required environment, we provide a Conda environment file.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/w2051200021/DeepPatch.git
-    cd DeepPatch
+    git clone https://github.com/w2051200021/focused-patch-KOA.git
+    cd focused-patch-KOA
     ```
 
 2.  **Create the Conda environment:**
     ```bash
-    conda env create -f DeepPatch_env.yml
+    conda env create -f environment.yml
     ```
 
 3.  **Activate the environment:**
     ```bash
-    conda activate DeepPatch
+    conda activate focused_patch_koa
     ```
 
 ---
@@ -50,7 +47,7 @@ This step generates the "bag of patches" from the raw data.
 2.  Make sure to set the paths to your DICOMs, landmark files, and KL grade file within the notebook.
 3.  This notebook will generate and save two files:
     *   `id_shapeLR_V00.npz`: Contains patient IDs, landmark coordinates, and KL grades.
-    *   `./data/knee_patches_patient_grouped_16_100.h5`: The main dataset file containing the processed patches, ready for training.
+    *   `./data/knee_patches_patient_grouped_16_100.h5`: The main dataset file containing the processed patches, ready for training. 
 
 ### 2. Model Training
 

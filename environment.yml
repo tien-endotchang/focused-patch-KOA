@@ -1,4 +1,4 @@
-name: DeepPatch
+name: focused_patch_koa
 channels:
   - pytorch
   - nvidia
