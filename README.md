@@ -2,6 +2,8 @@
 
 This repository contains the official PyTorch implementation for the paper: **[Anatomically-Focused Patches for Lightweight and Explainable Knee OA Grading]**.
 
+Our paper has been **accepted at the ShapeMI Workshop, MICCAI 2025**, and was honored with the **Best Paper Award**.
+
 Our work introduces a novel framework for automated knee osteoarthritis (OA) grading from radiographs. By using **anatomically-focused patches** extracted from bone contours, our model achieves state-of-the-art performance with a fraction of the parameters of larger models, while also providing precise, explainable saliency maps.
 
 
