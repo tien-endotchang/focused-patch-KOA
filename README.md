@@ -1,6 +1,6 @@
 # Anatomically-Focused Patches for Lightweight and Explainable Knee OA Grading
 
-This repository contains the official PyTorch implementation for the paper: **[Anatomically-Focused Patches for Lightweight and Explainable Knee OA Grading]**.
+This repository contains the official PyTorch implementation for the paper: **[Anatomically-Focused Patches for Lightweight and Explainable Knee OA Grading](https://shape.polymtl.ca/lombaert/MICCAI-ShapeMI-Chang-KL-Grading-2025.pdf)**.
 
 Our paper has been **accepted at the ShapeMI Workshop, MICCAI 2025**, and was honored with the **Best Paper Award**.
 
